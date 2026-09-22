@@ -1,0 +1,7 @@
+# Los paquetes se publican como Releases, no en el árbol del repo.
+dist/
+*.deb
+*.rpm
+*.pkg.tar.zst
+*.tar.gz
+*.exe
