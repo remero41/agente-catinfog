@@ -42,13 +42,6 @@ sudo pacman -U agente-catinfog-x.y.z-1-x86_64.pkg.tar.zst
 systemctl --user enable --now agente-catinfog
 ```
 
-### Cualquier otro Linux
-
-```bash
-tar xzf agente-catinfog-x.y.z-linux-amd64.tar.gz
-./instalar.sh ./agente-catinfog
-```
-
 > **En Linux, un detalle que importa en una caja registradora.** El agente corre con la sesión
 > del usuario, así que se para al cerrar sesión. Para que siga funcionando:
 >
